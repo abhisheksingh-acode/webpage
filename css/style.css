@@ -1,0 +1,113 @@
+      /* css */
+         /* common page stylesheet begins */
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+/* container div starts for top section */
+.container {
+   padding: 10px;
+   margin: 0px;
+   background-color: transparent;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+
+}
+
+            /* top left title div begins */
+.heading {
+      cursor: pointer;
+}
+
+.main-head {
+  font-size: 25px;
+}
+
+.sub-head {
+   font-weight: lighter;
+   color: rgb(151, 148, 148);
+}
+            /* menu div begins here  */
+.menu {
+      display: flex;
+      justify-content: space-around;
+
+}
+.menu .menu-items {
+   margin:0px 4px;
+   cursor: pointer;
+   font-size: 16px;
+   color: rgb(131, 128, 128);
+   text-transform: uppercase;
+   position: relative;
+}
+.menu-items:hover {
+      border-bottom: 2px solid rgb(170, 167, 167);
+      box-sizing: border-box;
+      transition: all .3s ease;
+}
+
+         /* signup button div  */
+.signup {
+   width: 120px;
+   height: 60px;
+   background: transparent;
+   color: rgb(167, 163, 163);
+   border: 1px solid grey;
+   outline: none;
+   border-radius: 5px;
+   cursor: pointer;
+   box-sizing: border-box;
+   transition: all .3s;
+}
+.signup:hover {
+    background-color: rgb(240, 239, 238);
+    color: rgb(13, 14, 13);
+ 
+}
+
+               /* common page stylesheet ends */
+.landing-page {
+   background-image: url('/images/bg-home-3.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position:center;
+   background-color: rgb(118, 188, 245);
+   width: 100%;
+   height:500px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.white {
+   color: rgb(230, 222, 222);
+}
+.landing-page .landing-title {
+      padding: 2px;
+      margin: 10px;
+      font-weight: bold;
+      font-size: 46px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-transform: capitalize;
+}
+.landing-page .landing-subt {
+      padding: 2px;
+      margin: 8px;
+      font-size: 18px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.landing-page .landing-project-btn {
+      padding: 10px 20px;
+      margin-top: 45px;
+      font-size: 24px;
+      background: transparent;
+      outline: none;
+      border: 2px solid rgb(253, 251, 251);
+      border-radius: 5px;
+      cursor: pointer;
+      color: rgb(241, 247, 246);
+}
